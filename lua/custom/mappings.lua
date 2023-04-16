@@ -16,7 +16,8 @@ M.tabs = {
     ["<leader>tp"] = {":tabp<CR>", "go to previous ta"},
 
     -- x is set such that it doesn't copy deleted char to Register Buffer
-    ["x"] = {'"_x',"x doesnt copy Char to Buffer"}
+    ["x"] = {'"_x',"x doesnt copy Char to Buffer"},
+    ["<leader>vt"] = {":cd %:p:h<CR>:vsp tabnew<CR>:terminal<CR>"}
   }
 }
 
