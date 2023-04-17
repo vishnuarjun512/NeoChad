@@ -27,8 +27,8 @@ keymap.set("v", "<", "<gv")
 keymap.set("v", ">", ">gv")
 
 -- Terminal exit
-keymap.set("n","<leader>vt",":vsp newtab<CR>:terminal<CR>")
-keymap.set("n","<leader>ht",":sp newtab<CR>:terminal<CR>")
+keymap.set("n","<leader>vt",":cd %:p:h<CR>:vsp newtab<CR>:terminal<CR>")
+keymap.set("n","<leader>ht",":cd %:p:h<CR>:sp newtab<CR>:terminal<CR>")
 keymap.set("t", "<Esc>", "<C-\\><C-n>", {silent = true})
 
 -- to Normal mode (faster)
