@@ -9,8 +9,14 @@ saga.init_lsp_saga({
       open = "<CR>",
    },
 
-   definition_action_keys = {
+   definition = {
       edit = "<CR>",
+   },
+
+   ui={
+      colors = {
+         normal_bg = "#022746",
+      },
    },
 })
 
