@@ -9,6 +9,7 @@ opt.tabstop=3
 opt.shiftwidth=3
 opt.expandtab=true
 opt.autoindent=true
+opt.smartindent=true;
 
 -- line wrapping
 opt.wrap=false
