@@ -75,8 +75,9 @@ M.ui = {
     },
 
     buttons = {
-      { "  File Explorer", "Spc e", "Nvim Tree" },
+      { "  New File", "Spc n","<CMD>ene!<CR>"},
       { "  Find File", "Spc f f", "Telescope find_files" },
+      { "  File Explorer", "Spc e", "Nvim Tree" },
       { "  Recent Files", "Spc f o", "Telescope oldfiles" },
       { "  Find Word", "Spc f w", "Telescope live_grep" },
       { "  Bookmarks", "Spc b m", "Telescope marks" },
