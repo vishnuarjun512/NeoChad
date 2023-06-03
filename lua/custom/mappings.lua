@@ -8,7 +8,11 @@ M.general = {
     ["<C-l>"] = { "<cmd> TmuxNavigateRight<CR>","window right"},
     ["<C-j>"] = { "<cmd> TmuxNavigateDown<CR>","window down"},
     ["<C-k>"] = { "<cmd> TmuxNavigateUp<CR>","window up"},
+<<<<<<< HEAD
     ["<C-s>"] = { ":w<CR>","Save File"},
+=======
+    ["<C-s>"] = { ":w <CR>","Save"},
+>>>>>>> origin/main
   },
 }
 

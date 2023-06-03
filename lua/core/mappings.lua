@@ -31,7 +31,7 @@ M.general = {
     ["<C-c>"] = { "<cmd> %y+ <CR>", "copy whole file" },
 
     -- line numbers
-    ["<leader>n"] = { "<cmd> set nu! <CR>", "toggle line number" },
+    -- ["<leader>n"] = { "<cmd> set nu! <CR>", "toggle line number" },
     ["<leader>rn"] = { "<cmd> set rnu! <CR>", "toggle relative number" },
 
     -- Allow moving the cursor through wrapped lines with j, k, <Up> and <Down>
@@ -46,6 +46,7 @@ M.general = {
     -- new buffer
     ["<leader>b"] = { "<cmd> enew <CR>", "new buffer" },
     ["<leader>ch"] = { "<cmd> NvCheatsheet <CR>", "Mapping cheatsheet" },
+    ["<leader>n"] = { "<CMD>ene!<CR>","New file"},
 
 
   },
